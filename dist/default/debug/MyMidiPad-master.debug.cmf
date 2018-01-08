@@ -1,0 +1,1482 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\user\AppData\Local\Temp\s788.obj
+idloc IDLOC 0 200000 200000 8 1
+init CODE 0 2 2 4 1
+reset_vec CODE 0 0 0 2 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/debug\MyMidiPad-master.debug.obj
+cinit CODE 0 447A 447A 46 1
+text0 CODE 0 6E14 6E14 898 1
+text1 CODE 0 460E 460E A2 1
+text2 CODE 0 43C0 43C0 22 1
+text3 CODE 0 4AAC 4AAC 1E6 1
+text4 CODE 0 4436 4436 44 1
+text5 CODE 0 44C0 44C0 4E 1
+text6 CODE 0 4386 4386 1C 1
+text7 CODE 0 435A 435A 6 1
+text8 CODE 0 456C 456C A2 1
+text9 CODE 0 5ABA 5ABA 4F2 1
+text10 CODE 0 4C92 4C92 2D2 1
+text11 CODE 0 4F64 4F64 310 1
+text12 CODE 0 564E 564E 46C 1
+text13 CODE 0 66A8 66A8 76C 1
+text14 CODE 0 5FAC 5FAC 6FC 1
+text15 CODE 0 4948 4948 164 1
+text16 CODE 0 5274 5274 3DA 1
+text17 CODE 0 4814 4814 134 1
+text18 CODE 0 4408 4408 2E 1
+text19 CODE 0 450E 450E 5E 1
+text20 CODE 0 4360 4360 12 1
+text21 CODE 0 4356 4356 4 1
+text22 CODE 0 4352 4352 4 1
+text23 CODE 0 46B0 46B0 AE 1
+text24 CODE 0 475E 475E B6 1
+text25 CODE 0 43E2 43E2 26 1
+text26 CODE 0 4372 4372 14 1
+text27 CODE 0 43A2 43A2 1E 1
+text28 CODE 0 434E 434E 4 1
+idataCOMRAM CODE 0 434C 434C 2 1
+cstackCOMRAM COMRAM 1 43 43 39 1
+bssBANK0 BANK0 1 80 80 74 1
+bssBANK1 BANK1 1 100 100 80 1
+dataCOMRAM COMRAM 1 7C 7C 2 1
+bssCOMRAM COMRAM 1 1 1 42 1
+mediumconst MEDIUMCONST 0 76AC 76AC 654 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM F4-FF 1
+RAM 180-5EE 1
+SFR F80-F9B 1
+SFR F9D-FD3 1
+SFR FD5-FDA 1
+SFR FE0-FE2 1
+SFR FE8-FEA 1
+SFR FF0-FFB 1
+BANK0 F4-FF 1
+BANK1 180-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5EE 1
+CONST 6-434B 1
+STACK 180-5EE 1
+SMALLCONST 600-434B 1
+CODE 6-434B 1
+BIGRAM 7E-7F 1
+BIGRAM F4-FF 1
+BIGRAM 180-5EE 1
+COMRAM 7E-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 600-434B 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\MyMidiPad-master.debug.obj
+434E text28 CODE >1266:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+434E text28 CODE >1267:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4350 text28 CODE >1268:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43A2 text27 CODE >1315:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43A4 text27 CODE >1316:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43A8 text27 CODE >1317:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43AC text27 CODE >1318:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43B0 text27 CODE >1319:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43B4 text27 CODE >1320:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43B8 text27 CODE >1322:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43BA text27 CODE >1323:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43BC text27 CODE >1325:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43BE text27 CODE >1327:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4372 text26 CODE >605:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4372 text26 CODE >607:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4374 text26 CODE >608:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4376 text26 CODE >610:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4378 text26 CODE >611:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+437A text26 CODE >612:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+437E text26 CODE >615:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4380 text26 CODE >616:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4382 text26 CODE >619:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43E2 text25 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+43E2 text25 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+43EE text25 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+43F6 text25 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+43FE text25 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+475E text24 CODE >1195:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4760 text24 CODE >1196:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4770 text24 CODE >1197:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+477E text24 CODE >1198:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4812 text24 CODE >1199:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+46B0 text23 CODE >1201:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+46B2 text23 CODE >1202:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+46C2 text23 CODE >1203:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+46D0 text23 CODE >1204:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+475C text23 CODE >1205:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4352 text22 CODE >1258:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4352 text22 CODE >1259:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4354 text22 CODE >1260:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4356 text21 CODE >1262:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4356 text21 CODE >1263:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4358 text21 CODE >1264:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4360 text20 CODE >1270:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4360 text20 CODE >1271:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+450E text19 CODE >1275:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4510 text19 CODE >1276:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4514 text19 CODE >1277:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4518 text19 CODE >1278:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+451C text19 CODE >1279:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+451C text19 CODE >1280:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4530 text19 CODE >1282:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4532 text19 CODE >1283:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4536 text19 CODE >1285:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+453C text19 CODE >1287:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+453E text19 CODE >1288:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4540 text19 CODE >1289:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4542 text19 CODE >1291:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4558 text19 CODE >1293:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+455C text19 CODE >1294:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4560 text19 CODE >1295:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4564 text19 CODE >1296:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4568 text19 CODE >1297:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+456A text19 CODE >1300:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4408 text18 CODE >1303:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+440A text18 CODE >1306:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+440E text18 CODE >1307:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+440E text18 CODE >1308:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+441C text18 CODE >1309:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4426 text18 CODE >1310:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+442A text18 CODE >1311:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+442C text18 CODE >1312:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+442C text18 CODE >1313:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4814 text17 CODE >1175:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4814 text17 CODE >1177:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4830 text17 CODE >1178:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4834 text17 CODE >1179:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4838 text17 CODE >1180:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+483C text17 CODE >1181:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4862 text17 CODE >1182:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4866 text17 CODE >1183:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+486C text17 CODE >1184:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4870 text17 CODE >1186:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4888 text17 CODE >1187:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+48D4 text17 CODE >1188:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+492E text17 CODE >1186:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4934 text17 CODE >1190:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4938 text17 CODE >1177:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4946 text17 CODE >1193:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5274 text16 CODE >633:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5276 text16 CODE >634:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+527E text16 CODE >635:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5284 text16 CODE >636:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5290 text16 CODE >637:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+52A8 text16 CODE >638:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+52CA text16 CODE >639:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+52CE text16 CODE >640:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+52DC text16 CODE >641:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+52F4 text16 CODE >642:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5316 text16 CODE >643:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+531A text16 CODE >636:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5320 text16 CODE >645:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5328 text16 CODE >646:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5334 text16 CODE >647:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+534C text16 CODE >648:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+536E text16 CODE >649:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5372 text16 CODE >650:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5380 text16 CODE >651:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5398 text16 CODE >652:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53BA text16 CODE >653:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53BE text16 CODE >646:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53C4 text16 CODE >655:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53CC text16 CODE >656:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53D8 text16 CODE >657:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+53F0 text16 CODE >658:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5412 text16 CODE >659:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5416 text16 CODE >660:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5424 text16 CODE >661:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+543C text16 CODE >662:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+545E text16 CODE >663:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5462 text16 CODE >656:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5468 text16 CODE >665:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5470 text16 CODE >666:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+547C text16 CODE >667:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5494 text16 CODE >668:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+54B6 text16 CODE >669:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+54BA text16 CODE >670:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+54C8 text16 CODE >671:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+54E0 text16 CODE >672:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5502 text16 CODE >673:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5506 text16 CODE >666:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+550C text16 CODE >675:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5514 text16 CODE >676:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+551C text16 CODE >677:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5528 text16 CODE >678:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5534 text16 CODE >679:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5566 text16 CODE >680:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5596 text16 CODE >678:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+559A text16 CODE >684:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+559E text16 CODE >685:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+55AC text16 CODE >686:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+55B0 text16 CODE >687:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+55BC text16 CODE >688:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+55EE text16 CODE >689:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+561E text16 CODE >687:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5622 text16 CODE >693:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5626 text16 CODE >677:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+562A text16 CODE >695:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+563A text16 CODE >696:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+564A text16 CODE >698:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4948 text15 CODE >700:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+494A text15 CODE >701:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4956 text15 CODE >702:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4962 text15 CODE >703:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+496E text15 CODE >704:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+49AC text15 CODE >705:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+49F0 text15 CODE >706:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+49F6 text15 CODE >703:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+49FA text15 CODE >710:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+49FE text15 CODE >711:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4A0C text15 CODE >712:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4A18 text15 CODE >713:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4A56 text15 CODE >714:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4A9A text15 CODE >715:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4AA0 text15 CODE >712:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4AA4 text15 CODE >719:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4AA8 text15 CODE >702:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FAC text14 CODE >723:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FAE text14 CODE >724:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FC6 text14 CODE >725:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FDC text14 CODE >726:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FF4 text14 CODE >727:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+600C text14 CODE >728:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6050 text14 CODE >729:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+607E text14 CODE >730:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6080 text14 CODE >727:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6080 text14 CODE >731:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6086 text14 CODE >726:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+608C text14 CODE >735:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6092 text14 CODE >736:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+60AE text14 CODE >737:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+60C6 text14 CODE >738:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6104 text14 CODE >739:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6146 text14 CODE >740:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+614C text14 CODE >737:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6152 text14 CODE >744:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6156 text14 CODE >745:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6164 text14 CODE >746:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+617C text14 CODE >747:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+61BA text14 CODE >748:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+61FC text14 CODE >749:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6202 text14 CODE >746:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6208 text14 CODE >753:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+620C text14 CODE >736:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+621A text14 CODE >755:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6222 text14 CODE >756:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6232 text14 CODE >757:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+624A text14 CODE >758:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6288 text14 CODE >759:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+62CA text14 CODE >760:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+62D0 text14 CODE >757:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+62D6 text14 CODE >764:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+62DA text14 CODE >765:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+62E8 text14 CODE >766:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6300 text14 CODE >767:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+633E text14 CODE >768:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6380 text14 CODE >769:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6386 text14 CODE >766:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+638C text14 CODE >773:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6390 text14 CODE >756:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6398 text14 CODE >775:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+63A0 text14 CODE >776:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+63BC text14 CODE >777:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+63D4 text14 CODE >778:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6412 text14 CODE >779:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6454 text14 CODE >780:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+645A text14 CODE >777:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6460 text14 CODE >784:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6464 text14 CODE >785:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6472 text14 CODE >786:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+648A text14 CODE >787:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+64C8 text14 CODE >788:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+650A text14 CODE >789:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6510 text14 CODE >786:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6516 text14 CODE >793:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+651A text14 CODE >776:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6528 text14 CODE >795:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6532 text14 CODE >796:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6542 text14 CODE >797:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+655A text14 CODE >798:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6598 text14 CODE >799:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+65DA text14 CODE >800:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+65E0 text14 CODE >797:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+65E6 text14 CODE >804:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+65EA text14 CODE >805:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+65F8 text14 CODE >806:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6610 text14 CODE >807:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+664E text14 CODE >808:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6690 text14 CODE >809:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6696 text14 CODE >806:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+669C text14 CODE >813:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66A0 text14 CODE >796:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66A8 text13 CODE >818:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66AA text13 CODE >819:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66BA text13 CODE >820:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66C0 text13 CODE >821:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66DC text13 CODE >822:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+66F4 text13 CODE >823:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6738 text13 CODE >824:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+677A text13 CODE >822:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6780 text13 CODE >828:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6784 text13 CODE >829:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6794 text13 CODE >830:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+67AC text13 CODE >831:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+67F0 text13 CODE >832:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6832 text13 CODE >830:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6838 text13 CODE >836:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+683C text13 CODE >821:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+684A text13 CODE >838:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6852 text13 CODE >839:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+686E text13 CODE >840:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6886 text13 CODE >841:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+68C4 text13 CODE >842:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6900 text13 CODE >840:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6906 text13 CODE >846:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+690A text13 CODE >847:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+691A text13 CODE >848:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6932 text13 CODE >849:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6970 text13 CODE >850:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69AC text13 CODE >848:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69B2 text13 CODE >854:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69B6 text13 CODE >839:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69C4 text13 CODE >856:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69CE text13 CODE >857:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+69EA text13 CODE >858:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A02 text13 CODE >859:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A40 text13 CODE >860:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A7C text13 CODE >858:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A82 text13 CODE >864:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A86 text13 CODE >865:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6A94 text13 CODE >866:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6AAC text13 CODE >867:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6AEA text13 CODE >868:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B26 text13 CODE >866:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B2C text13 CODE >872:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B30 text13 CODE >857:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B3E text13 CODE >874:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B48 text13 CODE >876:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B54 text13 CODE >877:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6B6C text13 CODE >878:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6BAA text13 CODE >879:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6BE6 text13 CODE >877:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6BEC text13 CODE >883:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6BF0 text13 CODE >884:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6BFE text13 CODE >885:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6C16 text13 CODE >886:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6C54 text13 CODE >887:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6C90 text13 CODE >885:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6C96 text13 CODE >891:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6C9A text13 CODE >876:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6CA2 text13 CODE >894:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6CBE text13 CODE >895:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6CD6 text13 CODE >896:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D14 text13 CODE >897:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D50 text13 CODE >895:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D56 text13 CODE >901:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D5A text13 CODE >902:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D68 text13 CODE >903:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6D80 text13 CODE >904:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6DBE text13 CODE >905:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6DFA text13 CODE >903:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E00 text13 CODE >909:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E04 text13 CODE >894:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E12 text13 CODE >912:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+564E text12 CODE >914:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5650 text12 CODE >915:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5658 text12 CODE >916:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+565E text12 CODE >917:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5662 text12 CODE >918:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5668 text12 CODE >919:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5674 text12 CODE >920:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5680 text12 CODE >921:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+56B2 text12 CODE >922:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+56E2 text12 CODE >920:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+56E6 text12 CODE >926:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+56EA text12 CODE >927:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+56FA text12 CODE >929:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5706 text12 CODE >930:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5738 text12 CODE >931:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5768 text12 CODE >929:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+576C text12 CODE >935:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5770 text12 CODE >919:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5774 text12 CODE >937:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+577A text12 CODE >938:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5786 text12 CODE >939:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5792 text12 CODE >940:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+57C4 text12 CODE >941:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+57F4 text12 CODE >939:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+57F8 text12 CODE >945:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+57FC text12 CODE >946:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+580C text12 CODE >948:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5818 text12 CODE >949:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+584A text12 CODE >950:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+587A text12 CODE >948:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+587E text12 CODE >954:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5882 text12 CODE >938:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5886 text12 CODE >956:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+588E text12 CODE >957:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+589A text12 CODE >958:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+58A6 text12 CODE >959:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+58D8 text12 CODE >960:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5908 text12 CODE >958:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+590C text12 CODE >964:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5910 text12 CODE >965:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5920 text12 CODE >967:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+592C text12 CODE >968:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+595E text12 CODE >969:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+598E text12 CODE >967:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5992 text12 CODE >973:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5996 text12 CODE >957:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+599A text12 CODE >976:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+59A2 text12 CODE >977:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+59AE text12 CODE >978:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+59BA text12 CODE >979:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+59EC text12 CODE >980:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A1C text12 CODE >978:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A20 text12 CODE >984:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A24 text12 CODE >985:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A34 text12 CODE >987:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A40 text12 CODE >988:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5A72 text12 CODE >989:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AA2 text12 CODE >987:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AA6 text12 CODE >993:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AAA text12 CODE >977:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AAE text12 CODE >996:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AB4 text12 CODE >997:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5AB8 text12 CODE >998:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F64 text11 CODE >1002:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F66 text11 CODE >1003:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F72 text11 CODE >1005:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F78 text11 CODE >1006:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F84 text11 CODE >1007:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F9E text11 CODE >1008:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4FAA text11 CODE >1009:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4FD8 text11 CODE >1010:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4FEE text11 CODE >1011:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4FF4 text11 CODE >1012:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5008 text11 CODE >1013:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5008 text11 CODE >1014:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+500E text11 CODE >1015:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5022 text11 CODE >1008:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5026 text11 CODE >1018:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+502A text11 CODE >1019:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+502C text11 CODE >1006:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+502C text11 CODE >1020:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5030 text11 CODE >1022:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5036 text11 CODE >1023:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5042 text11 CODE >1024:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+505C text11 CODE >1025:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5068 text11 CODE >1026:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5098 text11 CODE >1027:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50AE text11 CODE >1028:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50B4 text11 CODE >1029:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50C8 text11 CODE >1030:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50C8 text11 CODE >1031:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50CE text11 CODE >1032:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50E2 text11 CODE >1025:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50E6 text11 CODE >1035:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50EA text11 CODE >1036:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50EC text11 CODE >1023:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50EC text11 CODE >1037:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50F0 text11 CODE >1039:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+50F8 text11 CODE >1040:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5104 text11 CODE >1041:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+511E text11 CODE >1042:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+512A text11 CODE >1043:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+515A text11 CODE >1044:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5170 text11 CODE >1045:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5176 text11 CODE >1046:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+518A text11 CODE >1047:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+518A text11 CODE >1048:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5190 text11 CODE >1049:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51A4 text11 CODE >1042:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51A8 text11 CODE >1052:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51AC text11 CODE >1053:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51AE text11 CODE >1040:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51AE text11 CODE >1054:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51B2 text11 CODE >1056:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51BA text11 CODE >1057:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51C6 text11 CODE >1058:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51E0 text11 CODE >1059:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+51EC text11 CODE >1060:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+521C text11 CODE >1061:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5232 text11 CODE >1062:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5238 text11 CODE >1063:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+524C text11 CODE >1064:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+524C text11 CODE >1065:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5252 text11 CODE >1066:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5266 text11 CODE >1059:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+526A text11 CODE >1069:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+526E text11 CODE >1070:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5270 text11 CODE >1057:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5270 text11 CODE >1071:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C92 text10 CODE >1076:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C94 text10 CODE >1077:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4CC4 text10 CODE >1079:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4CF4 text10 CODE >1080:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4CF8 text10 CODE >1081:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D06 text10 CODE >1082:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D36 text10 CODE >1083:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D3A text10 CODE >1085:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D46 text10 CODE >1086:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D4A text10 CODE >1087:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4D90 text10 CODE >1088:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4DA0 text10 CODE >1089:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4DE6 text10 CODE >1090:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4DEA text10 CODE >1091:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4E16 text10 CODE >1092:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4E26 text10 CODE >1093:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4E52 text10 CODE >1095:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4E56 text10 CODE >1096:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4E64 text10 CODE >1097:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4EAA text10 CODE >1098:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4EF0 text10 CODE >1099:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F1C text10 CODE >1100:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F48 text10 CODE >1101:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F4C text10 CODE >1102:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F52 text10 CODE >1103:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F56 text10 CODE >1104:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F5C text10 CODE >1105:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4F60 text10 CODE >1085:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5ABA text9 CODE >1110:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5ABC text9 CODE >1111:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5ACC text9 CODE >1112:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5B4C text9 CODE >1113:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5B68 text9 CODE >1114:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5B80 text9 CODE >1115:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5BBE text9 CODE >1116:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5BFA text9 CODE >1114:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5C00 text9 CODE >1120:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5C04 text9 CODE >1121:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5C12 text9 CODE >1122:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5C2A text9 CODE >1123:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5C68 text9 CODE >1124:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CA4 text9 CODE >1122:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CAA text9 CODE >1128:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CAE text9 CODE >1113:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CBC text9 CODE >1130:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CBE text9 CODE >1132:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CC6 text9 CODE >1133:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CE2 text9 CODE >1134:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5CFA text9 CODE >1135:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5D38 text9 CODE >1136:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5D74 text9 CODE >1134:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5D7A text9 CODE >1140:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5D7E text9 CODE >1141:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5D8C text9 CODE >1142:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5DA4 text9 CODE >1143:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5DE2 text9 CODE >1144:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E1E text9 CODE >1142:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E24 text9 CODE >1148:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E28 text9 CODE >1133:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E36 text9 CODE >1150:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E3E text9 CODE >1152:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E48 text9 CODE >1153:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E54 text9 CODE >1154:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5E6C text9 CODE >1155:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5EAA text9 CODE >1156:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5EE6 text9 CODE >1154:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5EEC text9 CODE >1160:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5EF0 text9 CODE >1161:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5EFE text9 CODE >1162:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5F16 text9 CODE >1163:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5F54 text9 CODE >1164:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5F90 text9 CODE >1162:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5F96 text9 CODE >1168:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5F9A text9 CODE >1153:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FA2 text9 CODE >1170:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+5FAA text9 CODE >1172:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+456C text8 CODE >1213:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+456E text8 CODE >1214:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+457E text8 CODE >1215:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+458C text8 CODE >1216:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+435A text7 CODE >1353:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+435A text7 CODE >1354:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+435C text7 CODE >1355:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+435E text7 CODE >1356:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4386 text6 CODE >1358:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4386 text6 CODE >1359:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4398 text6 CODE >1360:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+439A text6 CODE >1361:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+439E text6 CODE >1362:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44C0 text5 CODE >1328:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44C0 text5 CODE >1329:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44C2 text5 CODE >1331:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44D4 text5 CODE >1332:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44D8 text5 CODE >1334:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44DC text5 CODE >1336:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44E0 text5 CODE >1337:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44E0 text5 CODE >1339:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44F4 text5 CODE >1341:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44FA text5 CODE >1343:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44FC text5 CODE >1344:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+44FE text5 CODE >1345:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4502 text5 CODE >1329:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+450A text5 CODE >1350:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4436 text4 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4436 text4 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+443E text4 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4446 text4 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4448 text4 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4458 text4 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4468 text4 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4468 text4 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+4AAC text3 CODE >1225:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4AAC text3 CODE >1227:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4AC8 text3 CODE >1228:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B24 text3 CODE >1230:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B28 text3 CODE >1231:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B2C text3 CODE >1232:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B30 text3 CODE >1233:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B56 text3 CODE >1234:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B5A text3 CODE >1235:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B60 text3 CODE >1236:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B64 text3 CODE >1237:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B68 text3 CODE >1239:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B6C text3 CODE >1240:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B70 text3 CODE >1241:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B74 text3 CODE >1242:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4B9C text3 CODE >1243:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4BA0 text3 CODE >1244:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4BD6 text3 CODE >1245:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4BDA text3 CODE >1246:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4BDE text3 CODE >1248:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4BF6 text3 CODE >1249:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C76 text3 CODE >1250:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C7A text3 CODE >1248:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C7A text3 CODE >1251:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C80 text3 CODE >1227:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4C8E text3 CODE >1255:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43C0 text2 CODE >624:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43C2 text2 CODE >625:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43C8 text2 CODE >626:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43CC text2 CODE >627:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43D2 text2 CODE >628:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43D6 text2 CODE >629:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43DC text2 CODE >630:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+43E0 text2 CODE >631:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+460E text1 CODE >1219:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4610 text1 CODE >1220:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+4620 text1 CODE >1221:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+462E text1 CODE >1222:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E14 text0 CODE >409:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E14 text0 CODE >411:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E1C text0 CODE >413:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E22 text0 CODE >414:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E26 text0 CODE >415:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E2A text0 CODE >416:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E2E text0 CODE >418:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E32 text0 CODE >420:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E36 text0 CODE >422:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E3A text0 CODE >423:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E3E text0 CODE >424:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E48 text0 CODE >426:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E50 text0 CODE >427:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E54 text0 CODE >429:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E5C text0 CODE >430:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E74 text0 CODE >432:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E78 text0 CODE >433:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E7C text0 CODE >434:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6E80 text0 CODE >435:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EA6 text0 CODE >436:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EAA text0 CODE >437:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EB0 text0 CODE >438:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EB4 text0 CODE >439:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EB8 text0 CODE >442:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EBC text0 CODE >443:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EC0 text0 CODE >444:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EC4 text0 CODE >445:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EEA text0 CODE >446:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EEE text0 CODE >447:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EF4 text0 CODE >448:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EF8 text0 CODE >449:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6EFC text0 CODE >430:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F02 text0 CODE >452:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F1A text0 CODE >454:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F32 text0 CODE >455:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F4A text0 CODE >456:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F8C text0 CODE >455:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F92 text0 CODE >454:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F98 text0 CODE >457:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6F9C text0 CODE >458:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FAC text0 CODE >459:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FC4 text0 CODE >460:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FCA text0 CODE >459:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FD0 text0 CODE >461:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FD4 text0 CODE >463:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FD4 text0 CODE >465:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FDE text0 CODE >466:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+6FEA text0 CODE >468:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7006 text0 CODE >469:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+701E text0 CODE >470:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+702A text0 CODE >471:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7042 text0 CODE >472:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+705A text0 CODE >473:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+706C text0 CODE >474:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+708C text0 CODE >475:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70A0 text0 CODE >476:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70AE text0 CODE >477:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70AE text0 CODE >478:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70C2 text0 CODE >479:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70C2 text0 CODE >480:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70CA text0 CODE >481:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70EA text0 CODE >482:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+70F4 text0 CODE >483:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7102 text0 CODE >484:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+710E text0 CODE >485:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+712E text0 CODE >486:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+713A text0 CODE >487:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7148 text0 CODE >488:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7148 text0 CODE >489:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7160 text0 CODE >491:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7178 text0 CODE >492:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+71B0 text0 CODE >493:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+71D6 text0 CODE >494:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+71D8 text0 CODE >495:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7220 text0 CODE >491:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7220 text0 CODE >496:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7226 text0 CODE >499:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+723E text0 CODE >500:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7256 text0 CODE >501:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+729A text0 CODE >502:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72AC text0 CODE >500:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72AC text0 CODE >503:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72B2 text0 CODE >499:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72B8 text0 CODE >508:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72C0 text0 CODE >509:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72D8 text0 CODE >510:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72DE text0 CODE >509:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72E4 text0 CODE >511:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72E8 text0 CODE >512:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72E8 text0 CODE >514:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+72F6 text0 CODE >515:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+730E text0 CODE >516:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7324 text0 CODE >517:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7328 text0 CODE >520:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7356 text0 CODE >521:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+735A text0 CODE >524:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7370 text0 CODE >525:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7374 text0 CODE >528:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73A2 text0 CODE >529:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73A6 text0 CODE >530:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73AA text0 CODE >531:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73AC text0 CODE >515:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73AC text0 CODE >532:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73B2 text0 CODE >534:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73CA text0 CODE >535:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+73E2 text0 CODE >536:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7420 text0 CODE >537:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7424 text0 CODE >538:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7428 text0 CODE >539:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+742A text0 CODE >535:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+742A text0 CODE >540:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7430 text0 CODE >534:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7436 text0 CODE >543:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7440 text0 CODE >544:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7450 text0 CODE >546:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7456 text0 CODE >547:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+745C text0 CODE >548:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7466 text0 CODE >549:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7478 text0 CODE >550:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+747E text0 CODE >551:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7484 text0 CODE >552:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7492 text0 CODE >553:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+74A4 text0 CODE >554:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+74BC text0 CODE >555:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+74D4 text0 CODE >556:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7512 text0 CODE >557:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7550 text0 CODE >558:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7554 text0 CODE >559:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7556 text0 CODE >555:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7556 text0 CODE >560:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+755C text0 CODE >554:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7562 text0 CODE >563:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7568 text0 CODE >564:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+757A text0 CODE >565:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7580 text0 CODE >566:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+758A text0 CODE >567:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+759C text0 CODE >569:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75A2 text0 CODE >570:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75A8 text0 CODE >571:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75B6 text0 CODE >573:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75C8 text0 CODE >574:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75E0 text0 CODE >575:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+75F8 text0 CODE >576:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+763C text0 CODE >577:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7640 text0 CODE >578:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7644 text0 CODE >575:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7644 text0 CODE >579:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+764A text0 CODE >574:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7650 text0 CODE >582:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+765A text0 CODE >583:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+766C text0 CODE >584:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7672 text0 CODE >585:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7672 text0 CODE >588:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+767E text0 CODE >589:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+7696 text0 CODE >590:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+769C text0 CODE >588:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+769C text0 CODE >591:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76A0 text0 CODE >593:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76A4 text0 CODE >594:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76A6 text0 CODE >466:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76A6 text0 CODE >595:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76AA text0 CODE >463:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+76AA text0 CODE >601:C:\Users\user\Downloads\MyMidiPad-master\newmain.c
+447A cinit CODE >2301:C:\Users\user\AppData\Local\Temp\s788.
+447A cinit CODE >2303:C:\Users\user\AppData\Local\Temp\s788.
+447A cinit CODE >2306:C:\Users\user\AppData\Local\Temp\s788.
+447A cinit CODE >2342:C:\Users\user\AppData\Local\Temp\s788.
+447C cinit CODE >2343:C:\Users\user\AppData\Local\Temp\s788.
+447E cinit CODE >2344:C:\Users\user\AppData\Local\Temp\s788.
+4480 cinit CODE >2345:C:\Users\user\AppData\Local\Temp\s788.
+4482 cinit CODE >2346:C:\Users\user\AppData\Local\Temp\s788.
+4484 cinit CODE >2347:C:\Users\user\AppData\Local\Temp\s788.
+4486 cinit CODE >2348:C:\Users\user\AppData\Local\Temp\s788.
+4488 cinit CODE >2349:C:\Users\user\AppData\Local\Temp\s788.
+448C cinit CODE >2350:C:\Users\user\AppData\Local\Temp\s788.
+448E cinit CODE >2351:C:\Users\user\AppData\Local\Temp\s788.
+4492 cinit CODE >2355:C:\Users\user\AppData\Local\Temp\s788.
+4496 cinit CODE >2356:C:\Users\user\AppData\Local\Temp\s788.
+4498 cinit CODE >2357:C:\Users\user\AppData\Local\Temp\s788.
+4498 cinit CODE >2358:C:\Users\user\AppData\Local\Temp\s788.
+449A cinit CODE >2359:C:\Users\user\AppData\Local\Temp\s788.
+449C cinit CODE >2360:C:\Users\user\AppData\Local\Temp\s788.
+449E cinit CODE >2363:C:\Users\user\AppData\Local\Temp\s788.
+44A2 cinit CODE >2364:C:\Users\user\AppData\Local\Temp\s788.
+44A4 cinit CODE >2365:C:\Users\user\AppData\Local\Temp\s788.
+44A4 cinit CODE >2366:C:\Users\user\AppData\Local\Temp\s788.
+44A6 cinit CODE >2367:C:\Users\user\AppData\Local\Temp\s788.
+44A8 cinit CODE >2368:C:\Users\user\AppData\Local\Temp\s788.
+44AA cinit CODE >2371:C:\Users\user\AppData\Local\Temp\s788.
+44AE cinit CODE >2372:C:\Users\user\AppData\Local\Temp\s788.
+44B0 cinit CODE >2373:C:\Users\user\AppData\Local\Temp\s788.
+44B0 cinit CODE >2374:C:\Users\user\AppData\Local\Temp\s788.
+44B2 cinit CODE >2375:C:\Users\user\AppData\Local\Temp\s788.
+44B4 cinit CODE >2376:C:\Users\user\AppData\Local\Temp\s788.
+44B6 cinit CODE >2382:C:\Users\user\AppData\Local\Temp\s788.
+44B6 cinit CODE >2385:C:\Users\user\AppData\Local\Temp\s788.
+44B8 cinit CODE >2386:C:\Users\user\AppData\Local\Temp\s788.
+44BA cinit CODE >2387:C:\Users\user\AppData\Local\Temp\s788.
+44BC cinit CODE >2388:C:\Users\user\AppData\Local\Temp\s788.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Lmediumconst 76AC 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_horizental_flash 7CB3 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hspace_1 180 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_MyReadI2C 4386 0 CODE 0 text6 dist/default/debug\MyMidiPad-master.debug.obj
+_matrices 80 0 BANK0 1 bssBANK0 dist/default/debug\MyMidiPad-master.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\MyMidiPad-master.debug.obj
+__mediumconst 76AC 0 MEDIUMCONST 0 mediumconst C:\Users\user\AppData\Local\Temp\s788.obj
+__size_of_animation0 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation1 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation2 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation3 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation4 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation5 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation6 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_animation7 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_MyCloseI2C 434E 0 CODE 0 text28 dist/default/debug\MyMidiPad-master.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+main@h 79 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@i 7A 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@j 77 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@k 72 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@m 76 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@n 73 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@x 6D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@y 6E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\MyMidiPad-master.debug.obj
+_TRMT 7D61 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s788.obj
+_main 6E14 0 CODE 0 text0 dist/default/debug\MyMidiPad-master.debug.obj
+_temp 1 0 COMRAM 1 bssCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+start 2 0 CODE 0 init C:\Users\user\AppData\Local\Temp\s788.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@col 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@row 61 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_MyStartI2C 4352 0 CODE 0 text22 dist/default/debug\MyMidiPad-master.debug.obj
+?___wmul 43 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_Buttons 7BF9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__Hpowerup 2 0 CODE 0 powerup dist/default/debug\MyMidiPad-master.debug.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_is_key_pressed 456C 0 CODE 0 text8 dist/default/debug\MyMidiPad-master.debug.obj
+MyWriteI2C@data_out 44 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__accesstop 80 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s788.obj
+intlevel0 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s788.obj
+intlevel1 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s788.obj
+intlevel2 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s788.obj
+intlevel3 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s788.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_was_key_pressed 46B0 0 CODE 0 text1 dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_set_led 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_Myusartinit 4372 0 CODE 0 text26 dist/default/debug\MyMidiPad-master.debug.obj
+_OSCCONbits FD3 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_write_display 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+main@rightbutton 74 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyOpenI2C 43C0 0 CODE 0 text27 dist/default/debug\MyMidiPad-master.debug.obj
+clr_led@led 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyCloseI2C 4352 0 CODE 0 text28 dist/default/debug\MyMidiPad-master.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyOpenI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__pidataCOMRAM 434C 0 CODE 0 idataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_horizental_flash 7CCB 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+was_key_pressed@led 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+___wmul@multiplicand 45 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_buttonLUT 7CEF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s788.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s788.obj
+__end_of_send_note 43E2 0 CODE 0 text2 dist/default/debug\MyMidiPad-master.debug.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyStartI2C 4356 0 CODE 0 text22 dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_send_note 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\MyMidiPad-master.debug.obj
+_MyOpenI2C 43A2 0 CODE 0 text27 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of___wmul 4408 0 CODE 0 text25 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_write_display 4948 0 CODE 0 text17 dist/default/debug\MyMidiPad-master.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_read_switch 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_BAUDCONbits FB8 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_MyWriteI2C 450E 0 CODE 0 text19 dist/default/debug\MyMidiPad-master.debug.obj
+__Hmediumconst 7D00 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_is_key_pressed 460E 0 CODE 0 text8 dist/default/debug\MyMidiPad-master.debug.obj
+__Hintcodelo 2 0 CODE 0 intcodelo dist/default/debug\MyMidiPad-master.debug.obj
+_buttonLUT 7CDF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyIdleI2C 4372 0 CODE 0 text20 dist/default/debug\MyMidiPad-master.debug.obj
+_was_key_pressed 460E 0 CODE 0 text1 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_circle 79A9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyIdleI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+set_led@i 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_send_note 43C0 0 CODE 0 text2 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MygetsI2C 450E 0 CODE 0 text5 dist/default/debug\MyMidiPad-master.debug.obj
+was_key_pressed@matrix 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MygetsI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_write 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_i2xy64 7B39 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+set_led@led 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@tmp 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_MyIdleI2C 4360 0 CODE 0 text20 dist/default/debug\MyMidiPad-master.debug.obj
+__Lintcodelo 2 0 CODE 0 intcodelo dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+start_initialization 447A 0 CODE 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_PBADEN$ON 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+send_note@three 44 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+read_switch@i 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+read_switch@j 60 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_set_led 475E 0 CODE 0 text23 dist/default/debug\MyMidiPad-master.debug.obj
+MygetsI2C@rdptr 49 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+was_key_pressed@k 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_MygetsI2C 44C0 0 CODE 0 text5 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_ledLUT 7CFF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+___rparam_used 1 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_memcpy 447A 0 CODE 0 text4 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show0_1 7CB3 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show0_2 7C8B 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show0_3 78CD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show3_1 7AB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show3_2 7C63 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show3_3 7CDF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show4_1 7BF9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show4_2 7A69 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show4_3 7A09 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show4_4 7BB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show7_1 7941 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show7_2 7855 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_SSPADD FC8 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyNotAckI2C 4360 0 CODE 0 text7 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyWriteI2C 456C 0 CODE 0 text19 dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_clr_led 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyStopI2C 435A 0 CODE 0 text21 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\MyMidiPad-master.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\MyMidiPad-master.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+__Hconst 0 0 CONST 0 const dist/default/debug\MyMidiPad-master.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\MyMidiPad-master.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\MyMidiPad-master.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\MyMidiPad-master.debug.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\MyMidiPad-master.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\MyMidiPad-master.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug\MyMidiPad-master.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyStopI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\MyMidiPad-master.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\MyMidiPad-master.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\user\AppData\Local\Temp\s788.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\MyMidiPad-master.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_was_key_pressed 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\MyMidiPad-master.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\MyMidiPad-master.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+__Lconst 0 0 CONST 0 const dist/default/debug\MyMidiPad-master.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\MyMidiPad-master.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\MyMidiPad-master.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\MyMidiPad-master.debug.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\MyMidiPad-master.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\MyMidiPad-master.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\MyMidiPad-master.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\MyMidiPad-master.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\MyMidiPad-master.debug.obj
+_MyStopI2C 4356 0 CODE 0 text21 dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@d1 49 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@s1 4B 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+write@status 47 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\MyMidiPad-master.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\MyMidiPad-master.debug.obj
+__Hinit 6 0 CODE 0 init dist/default/debug\MyMidiPad-master.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\MyMidiPad-master.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\MyMidiPad-master.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\MyMidiPad-master.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\MyMidiPad-master.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\MyMidiPad-master.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\MyMidiPad-master.debug.obj
+__Linit 2 0 CODE 0 init dist/default/debug\MyMidiPad-master.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\MyMidiPad-master.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\MyMidiPad-master.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@d 4F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@n 4D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+memcpy@s 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+___wmul 43E2 0 CODE 0 text25 dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyCloseI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+send_note@one 45 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+send_note@two 43 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\MyMidiPad-master.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\MyMidiPad-master.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__S1 180 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_circle 7941 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+MyOpenI2C@slew 43 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyStartI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\MyMidiPad-master.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_Myusartinit 4386 0 CODE 0 text26 dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CCP2MX$PORTC 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_i2xy64 7AF9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\MyMidiPad-master.debug.obj
+__Hramtop 600 0 RAM 0 ramtop dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_drum_midi 7AF9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_read_switch 4AAC 0 CODE 0 text3 dist/default/debug\MyMidiPad-master.debug.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\MyMidiPad-master.debug.obj
+MyOpenI2C@sync_mode 44 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\MyMidiPad-master.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_clr_led 4814 0 CODE 0 text24 dist/default/debug\MyMidiPad-master.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\MyMidiPad-master.debug.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\MyMidiPad-master.debug.obj
+is_key_pressed@matrix 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\MyMidiPad-master.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\MyMidiPad-master.debug.obj
+is_key_pressed@led 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_animation0 5274 0 CODE 0 text16 dist/default/debug\MyMidiPad-master.debug.obj
+_animation1 4948 0 CODE 0 text15 dist/default/debug\MyMidiPad-master.debug.obj
+_animation2 5FAC 0 CODE 0 text14 dist/default/debug\MyMidiPad-master.debug.obj
+_animation3 66A8 0 CODE 0 text13 dist/default/debug\MyMidiPad-master.debug.obj
+_animation4 564E 0 CODE 0 text12 dist/default/debug\MyMidiPad-master.debug.obj
+_animation5 4F64 0 CODE 0 text11 dist/default/debug\MyMidiPad-master.debug.obj
+_animation6 4C92 0 CODE 0 text10 dist/default/debug\MyMidiPad-master.debug.obj
+_animation7 5ABA 0 CODE 0 text9 dist/default/debug\MyMidiPad-master.debug.obj
+_ledLUT 7CEF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_memcpy 4436 0 CODE 0 text4 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext10 4C92 0 CODE 0 text10 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext11 4F64 0 CODE 0 text11 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext12 564E 0 CODE 0 text12 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext13 66A8 0 CODE 0 text13 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext14 5FAC 0 CODE 0 text14 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext15 4948 0 CODE 0 text15 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext16 5274 0 CODE 0 text16 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext17 4814 0 CODE 0 text17 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext18 4408 0 CODE 0 text18 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext19 450E 0 CODE 0 text19 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext20 4360 0 CODE 0 text20 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext21 4356 0 CODE 0 text21 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext22 4352 0 CODE 0 text22 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext23 46B0 0 CODE 0 text23 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext24 475E 0 CODE 0 text24 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext25 43E2 0 CODE 0 text25 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext26 4372 0 CODE 0 text26 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext27 43A2 0 CODE 0 text27 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext28 434E 0 CODE 0 text28 dist/default/debug\MyMidiPad-master.debug.obj
+_drum_midi 7AB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\MyMidiPad-master.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_BORV$3 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\MyMidiPad-master.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyNotAckI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_play_mode 7C 0 COMRAM 1 dataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+___wmul@multiplier 43 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@note 71 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@slew 70 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\MyMidiPad-master.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_is_key_pressed 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+stackhi 5EE 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s788.obj
+stacklo 180 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s788.obj
+write@data 45 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lintcode 2 0 CODE 0 intcode dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyWriteI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\MyMidiPad-master.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\MyMidiPad-master.debug.obj
+_set_led 46B0 0 CODE 0 text23 dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+write@data_out 46 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+main@column 75 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_memcpy 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_show0_1 7C8B 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show0_2 7C63 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show0_3 7855 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show3_1 7A69 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show3_2 7C39 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show3_3 7CCB 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show4_1 7BB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show4_2 7A09 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show4_3 79A9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show4_4 7B79 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show7_1 78CD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_show7_2 77AD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation0 564E 0 CODE 0 text16 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation1 4AAC 0 CODE 0 text15 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation2 66A8 0 CODE 0 text14 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation3 6E14 0 CODE 0 text13 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation4 5ABA 0 CODE 0 text12 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation5 5274 0 CODE 0 text11 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation6 4F64 0 CODE 0 text10 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_animation7 5FAC 0 CODE 0 text9 dist/default/debug\MyMidiPad-master.debug.obj
+is_key_pressed@k 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+end_of_initialization 44B6 0 CODE 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\MyMidiPad-master.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_Buttons 7C39 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+main@sync_mode 6F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Hreset_vec 2 0 CODE 0 reset_vec dist/default/debug\MyMidiPad-master.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\MyMidiPad-master.debug.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\MyMidiPad-master.debug.obj
+__Lramtop 600 0 RAM 0 ramtop dist/default/debug\MyMidiPad-master.debug.obj
+write_display@i 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+write_display@j 4F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\MyMidiPad-master.debug.obj
+__pcinit 447A 0 CODE 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+_SSPCON1bits FC6 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_SSPCON2bits FC5 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__ptext0 6E14 0 CODE 0 text0 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext1 460E 0 CODE 0 text1 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext2 43C0 0 CODE 0 text2 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext3 4AAC 0 CODE 0 text3 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext4 4436 0 CODE 0 text4 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext5 44C0 0 CODE 0 text5 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext6 4386 0 CODE 0 text6 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext7 435A 0 CODE 0 text7 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext8 456C 0 CODE 0 text8 dist/default/debug\MyMidiPad-master.debug.obj
+__ptext9 5ABA 0 CODE 0 text9 dist/default/debug\MyMidiPad-master.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\MyMidiPad-master.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\MyMidiPad-master.debug.obj
+__ramtop 600 0 RAM 0 ramtop C:\Users\user\AppData\Local\Temp\s788.obj
+__Lpowerup 2 0 CODE 0 powerup dist/default/debug\MyMidiPad-master.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_Myusartinit 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\MyMidiPad-master.debug.obj
+MygetsI2C@length 4B 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+___param_bank 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WDTPS$1 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\MyMidiPad-master.debug.obj
+clr_led@i 57 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of__initialization 44B6 0 CODE 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+animation0@i 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation0@j 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation0@m 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation0@n 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation0@x 5B 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation1@i 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation1@j 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation1@m 5C 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation1@n 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation1@x 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@h 59 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@i 65 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@j 67 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@m 60 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@n 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation2@x 63 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation3@i 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation3@j 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation3@m 5C 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation4@h 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation4@i 5C 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation4@j 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation4@m 5B 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@h 59 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@i 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@j 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@m 5C 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@n 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation5@x 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@a 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@b 60 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@c 62 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@d 64 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@m 66 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@n 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation6@x 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation7@h 5A 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation7@i 5B 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+animation7@j 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\MyMidiPad-master.debug.obj
+set_led@matrix 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__pcstackCOMRAM 43 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__pmediumconst 76AC 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_SSPCON2 FC5 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_main 76AC 0 CODE 0 text0 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_arrow 77AD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_TXREG FAD 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_show5 7B79 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_write 4436 0 CODE 0 text18 dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\MyMidiPad-master.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\MyMidiPad-master.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\MyMidiPad-master.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\MyMidiPad-master.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug\MyMidiPad-master.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_arrow 76AD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_count 41 0 COMRAM 1 bssCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_press 100 0 BANK1 1 bssBANK1 dist/default/debug\MyMidiPad-master.debug.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_show5 7B39 0 MEDIUMCONST 0 mediumconst dist/default/debug\MyMidiPad-master.debug.obj
+_write 4408 0 CODE 0 text18 dist/default/debug\MyMidiPad-master.debug.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+_clr_led 475E 0 CODE 0 text24 dist/default/debug\MyMidiPad-master.debug.obj
+_write_display 4814 0 CODE 0 text17 dist/default/debug\MyMidiPad-master.debug.obj
+clr_led@matrix 53 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__initialization 447A 0 CODE 0 cinit dist/default/debug\MyMidiPad-master.debug.obj
+__pbssBANK0 80 0 BANK0 1 bssBANK0 dist/default/debug\MyMidiPad-master.debug.obj
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/debug\MyMidiPad-master.debug.obj
+__pdataCOMRAM 7C 0 COMRAM 1 dataCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_MyReadI2C 43A2 0 CODE 0 text6 dist/default/debug\MyMidiPad-master.debug.obj
+__end_of_read_switch 4C92 0 CODE 0 text3 dist/default/debug\MyMidiPad-master.debug.obj
+_MyNotAckI2C 435A 0 CODE 0 text7 dist/default/debug\MyMidiPad-master.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\MyMidiPad-master.debug.obj
+___wmul@product 47 0 COMRAM 1 cstackCOMRAM dist/default/debug\MyMidiPad-master.debug.obj
+__size_of_MyReadI2C 0 0 ABS 0 - dist/default/debug\MyMidiPad-master.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\MyMidiPad-master.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\MyMidiPad-master.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\MyMidiPad-master.debug.obj
+__Hintcode 2 0 CODE 0 intcode dist/default/debug\MyMidiPad-master.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 447A 447A 46 1
+idloc 0 200000 200000 8 1
+text0 0 6E14 6E14 898 1
+text1 0 460E 460E A2 1
+text2 0 43C0 43C0 22 1
+text3 0 4AAC 4AAC 1E6 1
+text4 0 4436 4436 44 1
+text5 0 44C0 44C0 4E 1
+text6 0 4386 4386 1C 1
+text7 0 435A 435A 6 1
+text8 0 456C 456C A2 1
+text9 0 5ABA 5ABA 4F2 1
+text10 0 4C92 4C92 2D2 1
+text11 0 4F64 4F64 310 1
+text12 0 564E 564E 46C 1
+text13 0 66A8 66A8 76C 1
+text14 0 5FAC 5FAC 6FC 1
+text15 0 4948 4948 164 1
+text16 0 5274 5274 3DA 1
+text17 0 4814 4814 134 1
+text18 0 4408 4408 2E 1
+text19 0 450E 450E 5E 1
+text20 0 4360 4360 12 1
+text21 0 4356 4356 4 1
+text22 0 4352 4352 4 1
+text23 0 46B0 46B0 AE 1
+text24 0 475E 475E B6 1
+text25 0 43E2 43E2 26 1
+text26 0 4372 4372 14 1
+text27 0 43A2 43A2 1E 1
+text28 0 434E 434E 4 1
+idataCOMRAM 0 434C 434C 2 1
+reset_vec 0 0 0 6 1
+bssBANK0 1 80 80 74 1
+bssBANK1 1 100 100 80 1
+bssCOMRAM 1 1 1 7D 1
+mediumconst 0 76AC 76AC 654 1
+config 0 300000 300000 E 1
